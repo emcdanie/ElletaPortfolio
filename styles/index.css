@@ -4,40 +4,12 @@ font-family: 'Poppins', sans-serif;*/
 body {
   background-color: #fcbdc9;
 }
-h1,
-h2 {
-  color: white;
-  font-family: "Poppins", serif;
-  font-weight: bold;
-  font-size: 18 px;
-}
-
-p {
-  font-family: "Poppins", serif;
-  font-weight: normal;
-}
-
-ul {
-  font-family: "Poppins", serif;
-  font-weight: bold;
-  color: white;
-  list-style: none;
-  text-align: center;
-}
 
 .navbar-brand {
   color: white;
   font-size: 24px;
   font-weight: Bold;
   font-family: "Poppins", serif;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-}
-.container div {
-  width: 33%;
-  height: 60px;
 }
 .primary-link1 {
   color: white;
@@ -47,15 +19,31 @@ ul {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   cursor: pointer;
-  margin-top: 180px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 20px;
 }
 .primary-link2 {
   color: white;
   font-family: "Poppins", serif;
   font-weight: bold;
   font-size: 18 px;
-  margin-top: 180px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
 }
