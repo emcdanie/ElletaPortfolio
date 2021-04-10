@@ -47,7 +47,7 @@ a {
 }
 
 .carousel {
-  margin: 0px 90px;
+  margin: 0px 120px;
 }
 
 .fa-chevron-right,
@@ -72,3 +72,18 @@ button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
+
+@media (min-width: 992px) {
+  .carousel {
+   
+    
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  
+.carousel {
+  
+    
+  }
