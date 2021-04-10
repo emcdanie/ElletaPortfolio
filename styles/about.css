@@ -28,15 +28,7 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
-  margin-right: 150px;
-  margin-left: 150px;
   line-height: 1.75;
-}
-ul {
-  font-family: var(--default-font-family);
-  color: black;
-  list-style: none;
-  font-size: 24px;
 }
 
 .navbar-brand {
@@ -147,11 +139,14 @@ ul {
     width: 60%;
     margin-top: 3rem;
     position: absolute;
+    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.9);
   }
   .intro .intro-text .intro-button {
     width: 100%;
     left: 0;
     position: absolute;
+    bottom: -20px;
   }
 }
 
@@ -161,14 +156,14 @@ ul {
   }
 }
 .cta {
-  padding-top: 52rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: rgba(245, 243, 243, 0.9);
 }
 
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
+  padding: 5rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -195,4 +190,14 @@ ul {
     position: relative;
     z-index: 1;
   }
+
+  .cta {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    background-color: rgba(245, 243, 243, 0.9);
+  }
+}
+
+.fab .fa-linkedin-in {
+  color: black;
 }
