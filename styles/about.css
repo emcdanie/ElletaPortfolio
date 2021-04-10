@@ -31,12 +31,6 @@ p {
   line-height: 1.75;
 }
 
-.navbar-brand {
-  color: var(--secondary-color);
-  font-family: var(--default-font-family);
-  font-size: 24px;
-  font-weight: Bold;
-}
 .about h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
