@@ -25,13 +25,25 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
+  margin-right: 150px;
+  margin-left: 150px;
 }
 ul {
   font-family: var(--default-font-family);
   color: white;
   list-style: none;
-  text-align: center;
   font-size: 24px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.navbar-brand {
+  color: var(--secondary-color);
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: Bold;
 }
 .about h2 {
   font-family: var(--heading-font-family);
@@ -41,45 +53,40 @@ ul {
   text-align: center;
   max-width: 100px;
 }
-.navbar-brand {
-  color: var(--secondary-color);
-  font-family: var(--default-font-family);
-  font-size: 24px;
-  font-weight: Bold;
-}
+
 .container-about {
   font-weight: normal;
   margin: 0;
   color: #272142;
-  text-align: center;
   padding: 160px 20px;
 }
 
-.primary-link1 {
+.content-link1 {
   color: var(--secondary-color);
   font-family: --default-font-family;
   font-weight: bold;
   font-size: 18 px;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
   cursor: pointer;
-  margin-top: 180px;
-}
-.primary-link2 {
-  color: var(--secondary-color);
-  font-family: --default-font-family;
-  font-weight: bold;
-  font-size: 18 px;
-  margin-top: 180px;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  cursor: pointer;
-}
-.container {
+  text-decoration: none;
   display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-top: 180px;
+  position: absolute;
 }
+.content-link2 {
+  color: var(--secondary-color);
+  font-family: --default-font-family;
+  font-weight: bold;
+  font-size: 18 px;
+  cursor: pointer;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-top: 180px;
+  position: absolute;
+}
+
 .btn-branding {
   background: pink;
   border-radius: 4px;
@@ -87,11 +94,9 @@ ul {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  text-align: center;
 }
-a {
+.hype {
   color: white;
   cursor: pointer;
   text-decoration: none;
-  text-align: center;
 }
