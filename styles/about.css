@@ -50,7 +50,8 @@ p {
 .btn-branding {
   background: pink;
   border-radius: 4px;
-  color: white;
+  border-color: rgb(238, 153, 153);
+  color: black;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -101,7 +102,7 @@ p {
 }
 .page-section {
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
 }
 
 .section-heading {
@@ -150,6 +151,7 @@ p {
   }
 }
 .cta {
+  margin-bottom: -2rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: rgba(245, 243, 243, 0.9);
@@ -186,7 +188,7 @@ p {
   }
 
   .cta {
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
     background-color: rgba(245, 243, 243, 0.9);
   }
@@ -194,4 +196,9 @@ p {
 
 .fab .fa-linkedin-in {
   color: black;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
 }

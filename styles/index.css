@@ -72,18 +72,6 @@ button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
-
-@media (min-width: 992px) {
-  .carousel {
-   
-    
-  }
-  
+.d-block {
+  display: block !important;
 }
-
-@media (min-width: 1200px) {
-  
-.carousel {
-  
-    
-  }
