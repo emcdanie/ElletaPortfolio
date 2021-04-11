@@ -4,8 +4,8 @@ font-family: 'Poppins', sans-serif;*/
   --branding-color: rgb(255, 253, 253);
   --secondary-color: white;
   --third-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Archivo, sans-serif", serif;
+  --default-font-family: "Overpass", sans-serif;
 }
 
 body {
