@@ -47,7 +47,7 @@ a {
 }
 
 .carousel {
-  margin: 0px 120px;
+  margin: 0px;
 }
 
 .fa-chevron-right,
@@ -74,4 +74,12 @@ button.bg-light:focus {
 }
 .d-block {
   display: block !important;
+}
+
+@media (min-width: 576px) {
+  .carousel {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
 }
