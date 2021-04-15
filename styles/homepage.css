@@ -10,12 +10,11 @@ font-family: 'Overpass', sans-serif;*/
 
 h2 {
   color: black;
-
   font-weight: bold;
 }
 h1 {
   font-size: 45px;
-  color: white;
+  color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
   margin-bottom: 50px;
@@ -23,7 +22,7 @@ h1 {
 }
 .caption {
   font-size: 35px;
-  color: white;
+  color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
   margin-bottom: 60px;
