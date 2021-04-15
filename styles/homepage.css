@@ -10,7 +10,7 @@ font-family: 'Overpass', sans-serif;*/
 
 h2 {
   color: black;
-  font-family: var(--heading-font-family);
+
   font-weight: bold;
 }
 h1 {
@@ -83,12 +83,14 @@ h1.carousel-caption,
 }
 
 .site-heading .site-heading-upper {
+  font-family: var(--default-font-family);
   display: block;
   font-size: 2rem;
   font-weight: 800;
 }
 
 .site-heading .site-heading-lower {
+  --heading-font-family: "Archivo, sans-serif", serif;
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
