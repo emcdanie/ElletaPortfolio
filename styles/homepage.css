@@ -17,7 +17,6 @@ h1 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  margin-bottom: 50px;
   text-align: center;
 }
 .caption {
@@ -25,8 +24,11 @@ h1 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  margin-bottom: 60px;
+
   text-align: center;
+}
+.carousel-caption {
+  background-color: rgba(245, 243, 243, 0.9);
 }
 
 .mb-3 {
@@ -34,13 +36,6 @@ h1 {
   font-weight: normal;
   font-size: 24px;
   line-height: 1.75;
-}
-h1.carousel-caption,
-.carousel-caption btm {
-  font-family: var(--heading-font-family);
-  color: white;
-  font-size: 50px;
-  text-align: center;
 }
 
 .about h2 {
