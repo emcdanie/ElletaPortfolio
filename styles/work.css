@@ -87,12 +87,6 @@ a:hover {
   }
 }
 
-#portfolio .container-fluid .portfolio-box {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  height: 340px;
-}
 #portfolio .container-fluid {
   max-width: 1920px;
   position: relative;
